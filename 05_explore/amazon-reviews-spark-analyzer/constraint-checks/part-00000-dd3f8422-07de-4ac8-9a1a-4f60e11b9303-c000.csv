@@ -1,0 +1,8 @@
+check	check_level	check_status	constraint	constraint_status	constraint_message
+Review Check	Error	Success	SizeConstraint(Size(None))	Success	""
+Review Check	Error	Success	MinimumConstraint(Minimum(star_rating,None))	Success	""
+Review Check	Error	Success	MaximumConstraint(Maximum(star_rating,None))	Success	""
+Review Check	Error	Success	CompletenessConstraint(Completeness(review_id,None))	Success	""
+Review Check	Error	Success	UniquenessConstraint(Uniqueness(List(review_id)))	Success	""
+Review Check	Error	Success	CompletenessConstraint(Completeness(marketplace,None))	Success	""
+Review Check	Error	Success	ComplianceConstraint(Compliance(marketplace contained in US,UK,DE,JP,FR,`marketplace` IS NULL OR `marketplace` IN ('US','UK','DE','JP','FR'),None))	Success	""
